@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+}
+
+body {
+    padding: 40px 30%;
+}
+
+
+.img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    background-color: blue;
+}
+.img2 {
+    background-color: red;
+}
+.img3 {
+    background-color: orange;
+}
+.img4 {
+    background-color: greenyellow;
+}
+.img5 {
+    background-color: violet;
+}
+.img6 {
+    background-color: darkgray;
+}
+
+.carousel_wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.carousel {
+    display: flex;
+    position: relative;
+}
+.carousel__item {
+    display: inline-block;
+    margin: 0 15px;
+    order: 0;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    z-index: 100;
+}
+.previous {
+    left: 0;
+}
+.next {
+    right: 0;
+}
